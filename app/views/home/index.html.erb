@@ -1,0 +1,16 @@
+<div class="card text-center">
+  <div class="card-header">
+    Raffle application
+  </div>
+  <div class="card-body">
+    <% if user_signed_in? %>
+      <div class="text-center card-text">
+        <p> Thanks for signing up!</p>
+        <p> Your odds of winning are <%= current_user.winning_percentage %> % !</p>
+      </div>
+    <% else %>
+      <p class="card-text">This application will show the raffle percentages.</p>
+      <%= link_to 'Signup', new_user_registration_path, class: 'btn btn-info pull-left' %>
+    <% end %>
+  </div>
+</div>
