@@ -6,6 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-Raffel.create(name: "Win a fancy dinner")
-Raffel.create(name: "Win a kid's toy")
-Raffel.create(name: "Win a free bottle of perfume")
+Raffel.create(title: "Win a fancy dinner")
+Raffel.create(title: "Win a kid's toy")
+Raffel.create(title: "Win a free bottle of perfume")

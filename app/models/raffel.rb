@@ -1,0 +1,2 @@
+class Raffel < ApplicationRecord
+end
